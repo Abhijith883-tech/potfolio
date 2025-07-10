@@ -1,10 +1,13 @@
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
 
-menu.onclick = () => {
-    navbar.classList.toggle('show');
-};
+  const menuIcon = document.getElementById("menu-icon");
+  const navbar = document.querySelector(".navbar");
 
+  menuIcon.onclick = () => {
+    navbar.classList.toggle("active");
+  };
+
+
+// my-potfolio-11.netlify.app
 
 // function sendMail() {
 //     let parms={
